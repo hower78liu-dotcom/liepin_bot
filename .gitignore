@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+login_failure.log
+login_success.log
+app_*.log
+dom_debug.txt
+
+# Media / Debug files
+*.png
+*.html
+waf_crash_*.html
+debug_*.html
+debug_*.png
+failed_tags_*.png
+
+# Backups and outputs
+backup/
+*.xlsx
+*.csv
+*~
+*.swp
+
+# Auth and config
+auth.json
+*.json
+
+# Env
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDES
+.vscode/
+.idea/
